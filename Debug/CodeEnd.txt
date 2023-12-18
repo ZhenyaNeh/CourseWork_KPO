@@ -1,0 +1,85 @@
+number function min(number x, number y)
+{
+	new number res;
+	criterion: x < y
+	#
+	istrue {res = x;}
+	isfalse {res = y;} 
+	#
+	print "Minimal number is:   ";
+    print res;
+	newline; newline;
+	return res;
+}
+
+number function div(number num)
+{
+	num = num / 3;
+	print num;
+	print "; ";
+	return num;
+}
+
+void function standf (string a, string b, string c)
+{
+	print "Standart function:   ";
+	newline;
+
+	new number k;
+	k = lenght(a);
+    print "Lenght NEV-2023:     ";
+	print k;
+	newline;
+
+	new string str;
+	str = strcopy(b);
+    print "String copy:         ";
+	print str;
+	newline;
+
+	new number num;
+	num = atoii(c);
+	print "String in number:    ";
+	print num;
+	newline; newline;
+	return;
+}
+
+main
+{
+	new number x = 10;
+	new number y = 3;
+	x = x % y;
+	print "10 module 3:         ";
+	print x;
+	newline; newline;
+
+	new string strx = "NEV-2023";
+	new string stry = "Course Project Test";
+    new string strz = "70";
+
+	standf(strx, stry, strz);
+
+	new number minone = 21;
+	new number mintwo = 13;
+ 	new number resmin;
+	resmin = min (minone,mintwo);
+
+	print "Cycle:               ";
+	newline;
+	new number ab = 125;
+	print "Number before cycle: ";
+	print ab;
+	newline;
+	criterion: ab > 1 
+	#
+	cycle 
+	{
+	   ab = div(ab);
+	}
+	#
+	newline;
+	print "Number after cycle:  ";
+	print ab;
+	newline;	
+}

@@ -1,0 +1,44 @@
+void function standf (string a, string b)
+{
+	new number k;
+	k = lenght(a);
+	print "Test ";
+	print k;
+	newline;
+
+	new string str;
+	str = strcopy(b);
+	print "Test strcpy:         ";
+	print str;
+	newline;
+	return;
+}
+
+
+main
+{
+	new string strx = "NEV-2023";
+	new string stry = "Test program";
+
+	standf (strx, stry);
+
+	print "Cycle:               ";
+	newline;
+	new number ab = 125;
+	print "Number before cycle:  ";
+	print ab;
+	newline;
+	criterion: ab > 1
+	#
+	cycle 
+	{
+		print ab;
+		print "; ";
+		ab = ab / 3;
+	}
+	#
+	newline;
+	print "Number after cycle:  ";
+	print ab;
+	newline;
+}

@@ -1,0 +1,11 @@
+main
+{
+	new number a = 12;
+	new number b;
+	b = 2 - 2;
+	new number res;
+	res = a / b;
+	print res;
+	newline;
+}
+

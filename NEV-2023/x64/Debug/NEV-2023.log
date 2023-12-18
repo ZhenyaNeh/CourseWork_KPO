@@ -1,0 +1,22 @@
+﻿  Error.cpp
+  FST.cpp
+  Generator.cpp
+D:\University\CourseProject\NEV-2023\NEV-2023\Generator.cpp(129,9): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  GRB.cpp
+  In.cpp
+  IT.cpp
+D:\University\CourseProject\NEV-2023\NEV-2023\IT.cpp(65,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Lexer.cpp
+  Log.cpp
+D:\University\CourseProject\NEV-2023\NEV-2023\Log.cpp(43,12): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  LT.cpp
+  MFST.cpp
+  NEV-2023.cpp
+  Out.cpp
+D:\University\CourseProject\NEV-2023\NEV-2023\Out.cpp(44,12): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  Parm.cpp
+  PolishNotation.cpp
+D:\University\CourseProject\NEV-2023\NEV-2023\PolishNotation.cpp(67,16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  SemAnalysis.cpp
+  Создание кода...
+  NEV-2023.vcxproj -> D:\University\CourseProject\NEV-2023\x64\Debug\NEV-2023.exe
